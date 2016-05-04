@@ -1,0 +1,17 @@
+<table>
+    <tr>
+        <%Calendar.days_of_week.each do |day|%>
+        <th><%= day %></th>
+        <%end%>
+    </tr>
+    <%@calendar.weeks.each do |week|%>
+    <tr>
+        <%if day.month != @calendar.month%>
+            <td></td>
+        <%else%>
+            <td><%= day.mday %></td>
+        <%end%>
+    <%end%>
+    </tr>
+    <%end%>
+</table>

@@ -1,3 +1,12 @@
+David Anderson, CS270 Assignment 10
+
+Description:  Event Calendar application.
+
+Input:  N/A
+
+Output:  N/A
+
+
 CS 270 Assignment 10
 ====================
 
